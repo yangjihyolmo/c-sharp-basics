@@ -2,32 +2,36 @@
 using CsharpBasics.CastingBasics;
 using VariableBasics;
 using UserInputBasics;
-using  OperatorsBasics;
+using OperatorsBasics;
+using MathsBasics;
 
 namespace CsharpBasics
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-      Casting casting = new();
-      casting.CastingExample();
+        static void Main(string[] args)
+        {
+            Casting casting = new();
+            casting.CastingExample();
 
-      Variable v = new();
-      v.VariableExample();
+            Variable v = new();
+            v.VariableExample();
 
-      UserInput user = new();
-      user.UserInputExample();
+            UserInput user = new();
+            user.UserInputExample();
 
-      Operators op = new();
-      op.OperatorsExample();
+            Operators op = new();
+            op.OperatorsExample();
+
+            Maths m = new();
+            m.MathsExample();
 
 
-      Console.WriteLine("\n Hello World!");
-      Console.WriteLine("I'm learning c#!");
-      Console.WriteLine(3 + 3);
-      Console.Write("hello ");
-      Console.Write("It will print in same line");
+            Console.WriteLine("\n Hello World!");
+            Console.WriteLine("I'm learning c#!");
+            Console.WriteLine(3 + 3);
+            Console.Write("hello ");
+            Console.Write("It will print in same line");
+        }
     }
-  }
 }
