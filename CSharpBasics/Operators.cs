@@ -9,20 +9,20 @@ namespace OperatorsBasics
             //arithemetic operators
             int x = 10;
             int y = 20;
-            Console.WriteLine("The sum of number is " + (x + y));
+            Console.WriteLine("\n The sum of number is " + (x + y));
 
             //assignment operators
-            int x = 10;
-            x += 5;
-            Console.WriteLine(x);
+            int  z = 10;
+            z += 5;
+            Console.WriteLine(z);
 
             //comparsion operators
-            int x = 5;
-            int y = 3;
-            Console.WriteLine(x > y);
+            int a = 5;
+            int b = 3;
+            Console.WriteLine(a > b);
 
             //Logical operators
-            int x = 10;
+            x = 10;
             Console.WriteLine(x > 3 && x < 10);
 
         }
