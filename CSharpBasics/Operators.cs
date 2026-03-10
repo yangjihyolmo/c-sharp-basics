@@ -16,7 +16,11 @@ namespace OperatorsBasics
             x += 5;
             Console.WriteLine(x);
 
-            
+            //comparsion operators
+            int x = 5;
+            int y = 3;
+            Console.WriteLine(x > y);
+
         }
     }
 }
