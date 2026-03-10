@@ -21,6 +21,10 @@ namespace OperatorsBasics
             int y = 3;
             Console.WriteLine(x > y);
 
+            //Logical operators
+            int x = 10;
+            Console.WriteLine(x > 3 && x < 10);
+
         }
     }
 }
