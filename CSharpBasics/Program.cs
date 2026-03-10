@@ -4,6 +4,9 @@ using VariableBasics;
 using UserInputBasics;
 using OperatorsBasics;
 using MathsBasics;
+using StringsBasics;
+using Microsoft.VisualBasic;
+
 
 namespace CsharpBasics
 {
@@ -26,6 +29,8 @@ namespace CsharpBasics
             Maths m = new();
             m.MathsExample();
 
+            Strings str = new();
+            str.StringExample();
 
             Console.WriteLine("\n Hello World!");
             Console.WriteLine("I'm learning c#!");
