@@ -1,5 +1,6 @@
 ﻿using System;
 using CsharpBasics.CastingBasics;
+using VariableBasics;
 namespace CsharpBasics
 {
   class Program
@@ -8,6 +9,9 @@ namespace CsharpBasics
     {
       Casting casting = new();
       casting.CastingExample();
+
+      Variable v = new();
+      v.VariableExample();
 
       Console.WriteLine("Hello World!");
       Console.WriteLine("I'm learning c#!");
