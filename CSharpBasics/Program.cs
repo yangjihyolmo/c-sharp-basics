@@ -1,10 +1,14 @@
 ﻿using System;
+using CsharpBasics.CastingBasics;
 namespace CsharpBasics
 {
   class Program
   {
     static void Main(string[] args)
     {
+      Casting casting = new();
+      casting.CastingExample();
+
       Console.WriteLine("Hello World!");
       Console.WriteLine("I'm learning c#!");
       Console.WriteLine(3 + 3);
