@@ -2,6 +2,8 @@
 using CsharpBasics.CastingBasics;
 using VariableBasics;
 using UserInputBasics;
+using  OperatorsBasics;
+
 namespace CsharpBasics
 {
   class Program
@@ -16,6 +18,10 @@ namespace CsharpBasics
 
       UserInput user = new();
       user.UserInputExample();
+
+      Operators op = new();
+      op.OperatorsExample();
+
 
       Console.WriteLine("\n Hello World!");
       Console.WriteLine("I'm learning c#!");
