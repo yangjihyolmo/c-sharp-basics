@@ -1,6 +1,7 @@
 ﻿using System;
 using CsharpBasics.CastingBasics;
 using VariableBasics;
+using UserInputBasics;
 namespace CsharpBasics
 {
   class Program
@@ -13,7 +14,10 @@ namespace CsharpBasics
       Variable v = new();
       v.VariableExample();
 
-      Console.WriteLine("Hello World!");
+      UserInput user = new();
+      user.UserInputExample();
+
+      Console.WriteLine("\n Hello World!");
       Console.WriteLine("I'm learning c#!");
       Console.WriteLine(3 + 3);
       Console.Write("hello ");
